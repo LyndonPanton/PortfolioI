@@ -51,7 +51,22 @@ header {
 }
 
 /* MAIN */
+/* make picture and text display on the same line on large screen widths */
+#about {
+	font-family: serif;
+	font-weight: normal;
+}
 
+#about-picture {
+	display: block;
+	margin: 0 auto;
+}
+
+#about-text {
+	padding: 0 10px;
+	text-align: center;
+	font-weight: 400;
+}
 
 
 /* FOOTER */

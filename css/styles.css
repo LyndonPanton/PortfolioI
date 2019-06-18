@@ -61,6 +61,14 @@ header {
 	text-align: center;
 }
 
+.work {
+	display: block;
+	margin: 20px auto;
+	width: 80%;
+	height: 200px;
+	background-color: grey;
+}
+
 /* make picture and text display on the same line on large screen widths */
 #about {
 	font-family: serif;
@@ -86,6 +94,12 @@ header {
 	min-width: 10%;
 	padding: 4px 6px;
 	background-color: #DEDEED;
+}
+
+#works {
+	/*display: grid;
+	grid-template-rows: 1fr;
+	grid-template-columns: 100px;*/
 }
 
 

@@ -105,7 +105,11 @@ header {
 
 /* FOOTER */
 footer {
+	position: fixed;
+	min-width: 100%;
+	bottom: 0;
 	padding: 10px 0;
+	background-color: #F8F8F8;
 	text-align: center;
 	font-size: 0.8em;
 	font-weight: 300;

@@ -15,8 +15,40 @@ body, html {
 
 
 /* HEADER */
+h1 {
+	margin: 0;
+	padding: 10px 0 0;
+	text-align: center;
+	font-size: 1.2em;
+}
 
+header {
+	position: sticky;
+	/*position: fixed;*/
+	min-width: 100%;
+}
 
+.nav-link {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 0.7em;
+	font-weight: 300;
+	color: black;
+}
+
+.nav-link:focus, .nav-link:hover {
+	text-decoration: underline;
+}
+
+#nav {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+
+	padding-left: 0;
+	list-style-type: none;
+}
 
 /* MAIN */
 

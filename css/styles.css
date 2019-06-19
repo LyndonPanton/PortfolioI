@@ -285,7 +285,7 @@ footer {
 	padding-top: 5px;
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (min-width: 501px) {
 	/* MAIN */
 	.contact-field {
 		padding: 10px 5px;
@@ -342,6 +342,38 @@ footer {
 		flex-wrap: wrap;
 
 		margin-top: 150px;
+	}
+
+	/* FOOTER */
+	footer {
+		font-size: 1.2em;
+	}
+}
+
+@media screen and (min-width: 1100px) {
+	/* HEADER */
+	h1 {
+		font-size: 1.4em;
+	}
+
+	.nav-item {
+		font-size: 1.8em;
+	}
+
+
+	/* MAIN */
+	.contact-field {
+		padding: 10px 0;
+		font-size: 1.0em;
+	}
+
+	.work {
+		width: 30%;
+	}
+
+	#contact-submit {
+		padding: 10px 10px;
+		font-size: 1.4em;
 	}
 
 	/* FOOTER */

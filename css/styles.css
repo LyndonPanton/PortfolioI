@@ -67,6 +67,38 @@ header {
 	text-align: center;
 }
 
+.credit { /* via Unsplash */
+	display: inline-block;
+	/*border-radius: 3px;*/
+	padding: 4px 6px;
+	background-color: black;
+	line-height: 1.2;
+	text-decoration: none;
+	font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Helvetica, Ubuntu, Roboto, Noto, "Segoe UI", Arial, sans-serif;
+	font-size: 12px;
+	/*font-weight: bold;*/
+	color: white;
+}
+
+.credit-graphics { /* via Unsplash */
+	display: inline-block;
+	padding: 2px 3px;
+}
+
+.credit-name { /* via Unsplash */
+	display: inline-block;
+	padding: 2px 3px;
+}
+
+.credit-svg { /* via Unsplash */
+	height: 12px;
+	width: auto;
+	position: relative;
+	vertical-align: middle;
+	top: -2px;
+	fill:white;
+}
+
 .work {
 	display: block;
 	margin: 20px auto;
@@ -84,8 +116,7 @@ header {
 	filter: alpha(opacity=400); /* IE 8 and below */
 }
 
-/* make picture and text display on the same line on large screen widths */
-#about {
+#about { /* make picture and text display on the same line on large screen widths */
 	margin-top: 100px; /* Fixed header */
 	/*margin-top: 70px; Sticky header */
 	font-family: serif;

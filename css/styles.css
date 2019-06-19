@@ -24,11 +24,9 @@ h1 {
 
 header {
 	position: fixed;
-	/*position: sticky;*/
 	top: 0;
 	min-width: 100%;
 	background-color: #F8F8F8;
-	/*border-bottom: 1px rgba(0, 0, 0, 0.2) solid;*/
 	z-index: 1;
 	transition: all 1s ease-in;
 }
@@ -87,14 +85,12 @@ header:hover {
 
 	/* via Unsplash */
 	display: inline-block;
-	/*border-radius: 3px;*/
 	padding: 4px 6px;
 	background-color: black;
 	line-height: 1.2;
 	text-decoration: none;
 	font-family: -apple-system, BlinkMacSystemFont, "San Francisco", "Helvetica Neue", Helvetica, Ubuntu, Roboto, Noto, "Segoe UI", Arial, sans-serif;
 	font-size: 12px;
-	/*font-weight: bold;*/
 	color: white;
 }
 
@@ -151,8 +147,7 @@ header:hover {
 }
 
 #about { /* make picture and text display on the same line on large screen widths */
-	margin-top: 100px; /* Fixed header */
-	/*margin-top: 70px; Sticky header */
+	margin-top: 100px;
 	font-family: serif;
 	font-weight: normal;
 }
@@ -251,12 +246,6 @@ header:hover {
 #work-watch {
 	/*background-image: url(../img/background_watch.jpg);*/
 	background-image: url("https://images.unsplash.com/photo-1509048191080-d2984bad6ae5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80");
-}
-
-#works {
-	/*display: grid;
-	grid-template-rows: 1fr;
-	grid-template-columns: 100px;*/
 }
 
 

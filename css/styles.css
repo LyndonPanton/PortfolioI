@@ -33,8 +33,11 @@ header {
 	transition: all 1s ease-in;
 }
 
-header:hover {
+header:active, header:focus {
 	outline: none;
+}
+
+header:hover {
 	opacity: 1.0;
 }
 

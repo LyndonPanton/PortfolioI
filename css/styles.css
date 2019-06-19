@@ -71,7 +71,9 @@ header {
 	margin: 20px auto;
 	width: 80%;
 	height: 200px;
-	background-color: grey;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 /* make picture and text display on the same line on large screen widths */
@@ -108,10 +110,55 @@ header {
 }
 
 #work-box {
-	background-image: url("https://images.unsplash.com/photo-1512418490979-92798cec1380?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-image: url("../img/background_box.jpg");
+}
+
+#work-calculator {
+	background-image: url(../img/background_calculator.jpg);
+}
+
+#work-collatz {
+	background-image: url(../img/background_collatz.jpg);
+}
+
+#work-colour {
+	background-image: url(../img/background_colour.jpg);
+}
+
+#work-contact {
+	background-image: url(../img/background_contacts.jpg);
+}
+
+#work-memory {
+	background-image: url(../img/background_memory.jpg);
+}
+
+#work-phone {
+	background-image: url(../img/background_phone.jpg);
+}
+
+#work-player {
+	background-image: url(../img/background_player.jpg);
+}
+
+#work-recipe {
+	background-image: url(../img/background_recipe.jpg);
+}
+
+#work-storage {
+	background-image: url(../img/background_storage.jpg);
+}
+
+#work-tic {
+	background-image: url(../img/background_tic.jpg);
+}
+
+#work-todo {
+	background-image: url(../img/background_todo.jpg);
+}
+
+#work-watch {
+	background-image: url(../img/background_watch.jpg);
 }
 
 #works {

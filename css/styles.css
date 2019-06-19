@@ -287,6 +287,10 @@ footer {
 
 @media screen and (min-width: 500px) {
 	/* MAIN */
+	.contact-field {
+		padding: 10px 5px;
+	}
+	
 	#about {
 		display: flex;
 		flex-direction: row;

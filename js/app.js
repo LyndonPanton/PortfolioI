@@ -15,4 +15,6 @@ window.onload = function() {
 	}
 
 	window.addEventListener("scroll", scrollDownEvent);
+
+	scrollDownEvent();
 }

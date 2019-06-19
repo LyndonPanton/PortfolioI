@@ -303,3 +303,49 @@ footer {
 		padding: 0 20px;
 	}
 }
+
+@media screen and (min-width: 700px) {
+	/* HEADER */
+	h1 {
+		font-size: 2em;
+	}
+
+	.nav-item {
+		font-size: 1.3em;
+	}
+
+	.nav-item:nth-child(2), .nav-item:nth-child(3) {
+		display: none;
+	}
+
+	/* MAIN */
+	.contact-field {
+		padding: 20px 10px;
+	}
+
+	.work {
+		width: 40%;
+		height: 250px;
+	}
+
+	#about {
+		display: none;
+	}
+
+	#contact {
+		margin-bottom: 100px;
+	}
+
+	#works {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+
+		margin-top: 150px;
+	}
+
+	/* FOOTER */
+	footer {
+		font-size: 1.2em;
+	}
+}

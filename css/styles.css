@@ -290,7 +290,11 @@ footer {
 	.contact-field {
 		padding: 10px 5px;
 	}
-	
+
+	.work {
+		height: 300px;
+	}
+
 	#about {
 		display: flex;
 		flex-direction: row;

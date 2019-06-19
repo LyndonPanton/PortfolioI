@@ -161,6 +161,8 @@ header {
 
 #contact-fieldset {
 	border: none;
+	margin: 0;
+	padding: 0;
 }
 
 #contact-submit {

@@ -159,6 +159,10 @@ header {
 	margin-bottom: 70px;
 }
 
+#contact-fieldset {
+	border: none;
+}
+
 #contact-submit {
 	display: block;
 	margin: 0 auto;
@@ -280,6 +284,7 @@ footer {
 }
 
 @media screen and (min-width: 500px) {
+	/* MAIN */
 	#about {
 		display: flex;
 		flex-direction: row;
